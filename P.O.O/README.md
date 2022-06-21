@@ -59,4 +59,5 @@ const Tarjeta {
 
 # Métodos de objetos
 
+Son los comportamiento que pueden tener estos objetos
 
