@@ -18,4 +18,26 @@
 
 ### ¿Porque casi todo en javascript son objetos?
 
+Ejemplo:
 
+````c
+const user = {
+	name: "Naruto",
+	last_name: "Uzumaki",
+	age: 20,
+	hobbies: ["Entrenar", "Comer Ramen", "Estar solo"],
+	address: {
+		city: "Aldea de la hoja"
+	}
+}
+````
+# Propiedades ( Object Proprerties )
+
+````c
+	const Bicicleta { 
+	model: "Gt avalance sport",
+	color: "Azul y verde",
+	velocidad: 20 a 30 km/h,
+	precio: $18.000
+}
+````
