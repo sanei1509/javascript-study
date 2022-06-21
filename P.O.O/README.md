@@ -30,14 +30,33 @@ const user = {
 		city: "Aldea de la hoja"
 	}
 }
+
 ````
+
 # Propiedades ( Object Proprerties )
 
+| describimos objetos de la vida real en código
+
+ejemplos:
 ````c
-	const Bicicleta { 
+const Bicicleta { 
 	model: "Gt avalance sport",
 	color: "Azul y verde",
 	velocidad: 20 a 30 km/h,
 	precio: $18.000
 }
+
+
+const Tarjeta {
+	number: 3010030103,
+	paymentProcessor: "Visa",
+	type: "Visa GOLD",
+	owner: "Santiago Neira",
+	amount: $100.000
+}
+
 ````
+
+# Métodos de objetos
+
+
