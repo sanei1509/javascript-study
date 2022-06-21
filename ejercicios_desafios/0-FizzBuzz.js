@@ -12,9 +12,9 @@ for (let i = 1; i <= 100; i++) {
 	//debemos saber primero si se cumple mayor cant. casos
 	if (tres_mult && cinco_mul)
 		console.log("FizzBuzz");
-	if (tres_mult)
+	else if (tres_mult)
 		console.log("Fizz");
-	if (cinco_mult)
+	else if (cinco_mult)
 		console.log("Buzz");
 	else
 		console.log(i);
@@ -22,3 +22,5 @@ for (let i = 1; i <= 100; i++) {
 
 //Para ver los resultados -> https://playcode.io/javascript
 
+//conclusión:
+//	lo mas importante en este tipo de ejercicios es controlar el caso más receptivo
