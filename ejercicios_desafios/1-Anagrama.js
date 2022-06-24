@@ -12,7 +12,7 @@ function isAnagram(wordOne, wordTwo)
 
 	//1 - necesitamos convertir a un array de caracteres ambas cadenas
 	//2 - ordenar alfbeticamente el array y comparar si son iguales
-	const arr1 = wordOne.toLowerCase.split()
+	const arr1 = wordOne.toLowerCase().split()
 	const arr2 = wordTwo.toLowerCase().split()
 	arr1.sort()
 	arr2.sort()
