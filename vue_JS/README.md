@@ -1,4 +1,6 @@
 # Estudiando Vue js
+(i) -> no es necesario ninguna instalación para comenzar a hacer cosas con vue, a diferencia de react y angular.
+
 segun su doc -> framework para construir interfaces de usuarios para nuestrasa aplciaciones.
 
 Vue es un framework de javascript, que nos permite crear todo tipo de desarrollos, brindando la oportunidad de crea o utilizar:
