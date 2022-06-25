@@ -56,4 +56,3 @@ sin necesidad de la recarga de la página y la reconstrucción de esta para las 
 no es algo que vayamos a notar desde el principio con vue, sino probablemente lo comenzemos a ver luego de trabajar en un par proyectos.
 
 notaremos que hay ``configuraciones`` y ``herramientas de desarrollo`` que nos ayudan a llevar adelante el proyecto
-
