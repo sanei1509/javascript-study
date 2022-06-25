@@ -12,14 +12,20 @@
         <!-- traemos titulo desde vue -->
         <h1>{{ mensaje }}</h1>
         <!-- linkeamos con vue, v-model -->
-        <input type="text" v-model="nuevos_personajes">
+        <div class="form-container">
 
-
+            <div class="field">
+                <input placeholder="Nombre del nuevo personaje" type="text" v-model="nuevo_personaje" v-on:keyup.enter="crearPersonaje">
+                <input placeholder="Nombre del nuevo clan" type="text" v-model="clan_name" v-on:keyup.enter="crearPersonaje">
+                <button v-on:click="crearPersonaje">Crear personaje</button>
+            </div>
+        </div>
 
         <ul>
             <li v-for="personaje of personajes">
-                {{ personaje.nombre }} - {{ personaje.clan }}               
-                <span v-if="personaje.cantidad === 0">No hay personajes agregados</span>
+                {{ personaje.nombre }} - {{ personaje.clan }}
+                <span v-if="personaje.clan === ''"> Sin clan </span>
+                <button @click ="personaje.clan = random_clan()">Clan aleatorio</button>
             </li>
         </ul>
     </div>
