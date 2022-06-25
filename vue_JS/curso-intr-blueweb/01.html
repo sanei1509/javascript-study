@@ -9,13 +9,22 @@
 <body>
     <!-- vamos a renderizar todo dentro de app -->
     <div id="app">
-        <input type="text">
+        <!-- traemos titulo desde vue -->
+        <h1>{{ mensaje }}</h1>
+        <!-- linkeamos con vue, v-model -->
+        <input type="text" v-model="nuevos_personajes">
+
+
 
         <ul>
-            <li>
-                
+            <li v-for="personaje of personajes">
+                {{ personaje.nombre }} - {{ personaje.clan }}               
+                <span v-if="personaje.cantidad === 0">No hay personajes agregados</span>
             </li>
         </ul>
     </div>
+
+    <script src="https://unpkg.com/vue@3"></script>
+    <script src="01.js"></script>
 </body>
 </html>
