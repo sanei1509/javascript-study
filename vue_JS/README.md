@@ -1,4 +1,5 @@
 # Estudiando Vue js
+segun su doc -> framework para construir interfaces de usuarios para nuestrasa aplciaciones.
 
 Vue es un framework de javascript, que nos permite crear todo tipo de desarrollos, brindando la oportunidad de crea o utilizar:
 - aplicaciones SPA (una sola página variable)
