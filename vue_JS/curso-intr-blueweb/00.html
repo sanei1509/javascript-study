@@ -1,0 +1,19 @@
+<script src="https://unpkg.com/vue@3"></script>
+
+<div id="app">
+
+<h1>{{ mensaje }}</h1>
+<input type="text" v-model="nuevos_personajes">
+
+<ul>
+    <li v-for="personaje of personajes">
+        {{personaje.nombre}} - {{personaje.clan}}               
+        <span v-if="personaje.cantidad === 0">No hay personajes agregados</span>
+    </li>
+</ul>
+
+</div>
+
+<script>
+
+</script>
