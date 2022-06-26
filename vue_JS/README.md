@@ -26,7 +26,7 @@ Vue es un framework de javascript, que nos permite crear todo tipo de desarrollo
     - Optimization
 
 ## modos de trabajo
-    podemos trabajar mediante ``componentes`` sencillos que no solo forman parte de una aplicación web, también de aplicaciones frontend completas, con su sistema de ``routing```y cantidad lógica de negocio
+ podemos trabajar mediante ``componentes`` sencillos que no solo forman parte de una aplicación web, también de aplicaciones frontend completas, con su sistema de ``routing``y cantidad lógica de negocio
 
 
 # ¿Porque estudiar este framework?
@@ -38,21 +38,21 @@ Por lo que puede ser un buen inicio como para profundizar en el, en caso de sent
 
 ## Entendiendo puntos importantes de Vue
 
-### 1 - Componentes en Vue
+## 1 - Componentes en Vue
 los componentes son elementos de la interfaz de usuario trabajados de manera aislada.
 las preguntas que debemos hacernos despúes de esto es:
 ¿Como declaramos componentes? 
 ¿Cual es la forma de comunicarse entre ellos?
 
-### 1.1 - SPA, aplicaciones de una sola página
+## 1.1 - SPA, aplicaciones de una sola página
 las aplicaciones de una sola página nos permite que una sola vista pueda actuar como un sitio web tradicional completo.
 
 sin necesidad de la recarga de la página y la reconstrucción de esta para las distintas acciones que el usuario quiera realizar.
 
-### 1.2 - Manejo de estados
+## 1.2 - Manejo de estados
 
 
-### 2.0 Project Scaffolding (Andamios de proyectos)`}
+## 2.0 Project Scaffolding (Andamios de proyectos)`}
 ``Vue CLI``
 [libreria que permite usar comandos en la consola del ordenador para automatizar distintas tareas como la instalación de dependencias para trabajar con vue(?)];
 
