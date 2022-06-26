@@ -3,6 +3,9 @@ const { createApp } = Vue;
 createApp({
     data() {
         return{
+        flag: 0,
+        miembros: [],
+        res_cont: 0,
         mensaje: "Mensaje con vue",
         clanes: ["Uzumaki", "Uchiha", "Hyuga", "Senju", "Otsutsuki"],
         personajes: [
@@ -29,6 +32,16 @@ createApp({
         random_clan() {
             let clan_index = Math.round(Math.random()*4)
             return this.clanes[clan_index]
+        },
+        armar_lista() {
+            personajes = this.personajes
+            memb = this.miembros;
+            
+            for(let i = 0; i < personajes.length; i++){
+                if(personajes[i].clan != '')
+                    memb.push(personajes[i].clan);
+                    return personajes[i].clan
+            }
         }
     }
 }).mount('#app') // lo vamos a montar en #app
