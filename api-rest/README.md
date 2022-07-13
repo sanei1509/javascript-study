@@ -37,7 +37,7 @@ comando json server que instalamos y le decimos donde tiene que mirar nuestra ap
 
 ```c
     "scripts": {
-        "servicio": "json-server --watch data.json"
+        "inicio": "json-server --watch data.json"
     }
 ```
 
