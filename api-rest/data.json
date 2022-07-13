@@ -1,0 +1,11 @@
+{
+  "autores": [{ "id": 1, "username": "axoser" }],
+  "movies": [
+    { "id": 1, "titulo": "Naruto", "autor": 1 },
+    { "id": 2, "titulo": "Scary movie", "autor": 2 },
+    { "id": 3, "titulo": "Futurama", "autor": 2 }
+  ],
+  "comentarios": [
+    { "id": 1, "mensaje": "La mejor serie(anime) que he visto", "postID": 2 }
+  ]
+}
