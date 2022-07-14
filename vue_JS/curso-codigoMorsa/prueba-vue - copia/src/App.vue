@@ -1,6 +1,5 @@
 <script setup>
 import { RouterLink, RouterView } from "vue-router";
-import HelloWorld from "@/components/HelloWorld.vue";
 </script>
 
 <template>
@@ -15,25 +14,12 @@ import HelloWorld from "@/components/HelloWorld.vue";
 <style>
 @import "@/assets/base.css";
 
-#app {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
-
-  font-weight: normal;
-}
-
-.logo {
-  display: block;
-  margin: 0 auto 2rem;
-}
-
 a,
 .green {
   text-decoration: none;
   color: hsla(160, 100%, 37%, 1);
   transition: 0.4s;
-  padding: 20px 40px;
+  padding: 10px 40px;
 }
 
 @media (hover: hover) {
@@ -45,11 +31,12 @@ a,
 nav {
   display: flex;
   font-size: 15px;
-  height: 40px;
+  height: 50px;
   background: #222;
-  justify-content: flex-start;
+  justify-content: center;
   align-content: center;
   text-align: center;
   align-items: center;
+  padding-top: 10px;
 }
 </style>

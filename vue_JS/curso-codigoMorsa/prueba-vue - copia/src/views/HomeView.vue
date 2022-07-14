@@ -1,5 +1,5 @@
 <script setup>
-import Saludo from "@/components/Saludo.vue";
+import Container from "@/components/Container.vue";
 </script>
 
 <template>
