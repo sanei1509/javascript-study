@@ -12,3 +12,10 @@ Hoy en día javascript es utilizado en una variedad de aplicaciones:
 	- procedural
 	- funcional
 	- imperativo
+
+
+# Asincronía
+
+# Event Loop
+
+<img src="./img/what-is-the-event-loop.png" />
