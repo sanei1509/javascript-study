@@ -1,0 +1,44 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.button {
+  height: 35px;
+  padding: 0 4px;
+}
+
+/* Formulario u app container */
+.container-form {
+  /* text-align: center */
+  width: 800px;
+  margin: 100px auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  height: 100%;
+  font-size: 24px;
+}
+
+/* Objetivos */
+.goal-input {
+  width: 80%;
+  height: 30px;
+  padding: 0 20px;
+}
+
+.goal-input:focus {
+  border: none;
+}
+
+/* .container-goals {
+	padding: 20px;
+	margin: 20px auto;
+	border: 1px solid #ccc;
+  } */
+
+li {
+  list-style: none;
+  padding: 20px;
+  margin: 20px auto;
+  border: 1px solid #ccc;
+}
