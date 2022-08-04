@@ -31,3 +31,34 @@ todo se siente como una unidad.
 ## no tenemos que esperar a que se renderizen nuevas páginas
 
 # Veremos el porque cuando veamos lo fácil que es crear aplicaciones e interfaces web con VUE JS.
+
+# Content of the course
+
+## Basics
+
+- Core syntax
+- Templates
+- Methods
+- Computed
+- Properties
+- Watchers
+
+## Intermediate
+
+- Components
+- Component Communication
+- Behind the Scenes
+- Forms
+- HTTP
+- Routing
+- Animations
+
+## Advanced
+
+- Vuex
+- Authentication
+- Deployment & Optimizations
+- Composition API
+- RE using code.
+
+# Mini Proyectos / Proyectos más elaborados (grandes) / Desafíos
