@@ -1,0 +1,13 @@
+=========  Algunos errores que nos hacen peor programador =============================
+Escribir funciones imperativas es un error: 
+
+las interfaces de usuario más complejas que han escrito estan basadas en escribir código declarativo:
+
+REACT Y REACT NATIVE -> Donde se define que es lo que esta viendo un usuario dependiendo de un estado.
+
+También -> VUE.
+
+Beneficios -> componentes fáciles de utilizar y entender.
+
+
+==== ¿como mejorar la ?
