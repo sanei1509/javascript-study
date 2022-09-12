@@ -12,3 +12,8 @@ ASYNC / AWAIT
 # ¿Porque async y await?
 
 | eso lo vamos a ver claro cuando veamos lo feo que es resolver promesa tras promesa con fetch para acceder a un dato específico.
+
+# AWAIT
+
+el `await` ya trae la petición resuelta ahorrando asi un then() para resolverla,
+dandonos un mayor orden y una mejor manipulación de la data obtenida.
