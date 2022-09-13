@@ -1,3 +1,6 @@
+// Módulos necesarios
+import axios from "axios";
+
 const extraerPost = (id) => {
   BODY = document.body;
   BODY.innerHTML = `<h1>POST:</h1>`;
@@ -13,6 +16,7 @@ extraerPost(6);
 
 // DESAFIO
 // ¿ Quién escribio el [post numero 80]
+
 const extraerUser = (id) => {
   BODY = document.body;
   //   fetch a una url específica
@@ -33,6 +37,7 @@ const extraerUser = (id) => {
 extraerUser(80);
 
 // MISMO DESAFÏO PERO CON ASYNC AWAIT
+
 const extraerUserAsync = async (id) => {
   // async => siempre try, catch
   try {
@@ -58,3 +63,21 @@ const extraerUserAsync = async (id) => {
 };
 
 extraerUserAsync(10);
+
+// USANDO AXIOS
+
+const extraerUserAxios = async (id) => {
+  // TRAEMOS TODOS LOS POSTS
+  try {
+    const POSTS = await axios.get(
+      `https://jsonplaceholder.typicode.com/posts/${id}`
+    );
+    //   OBTENGO EL USUARIO A TRAVES DEL ID QUE ENLAZA LOS POST CON CADA USUARIO
+    const USERS = await axios.get(
+      `https://jsonplaceholder.typicode.com/users/${POSTS.data.userId}`
+    );
+    console.log(USERS.data.name);
+  } catch (error) {
+    console.log(error);
+  }
+};
