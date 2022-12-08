@@ -9,6 +9,6 @@
 - ABSTRACCIÓN - dejar de lado los detalles
 - ENCAPSULACIÓN - asegurar distinta información y funcionalidades para que solo se puedan acceder desde cierto lugar, privacidad en ese entorno de ejecución.
 - HERENCIAS - reutilización de código, relacionamiento entre distintas entidades, ej : user/comun and user/admin
-- POLIMORFISMO -
+- POLIMORFISMO - Sobre escribir una clase heredada, ej un method que haga algo diferente en otra instancia.
 
 ## RECORDATORIO - no repetir código ayuda a equivocarse menos y encontrar más rápido los errores
